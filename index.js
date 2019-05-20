@@ -41,7 +41,7 @@ function draw() {
     let w = c2.width/scene.length
     let c = `rgb(${b}, ${b}, ${b})`
     s2.fillStyle = c
-    s2.fillRect(i * w, 0, w+1, h)
+    s2.fillRect(i * w, h, w+1, canvas.height)
   }
 }
 function map(value, a, b, c, d){
